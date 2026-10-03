@@ -24,7 +24,7 @@ namespace Noooooo
             MediaElement mediaPlayer = sender as MediaElement;
             //button1.Content = 
             this.no.Source = new Uri("/Nooo.mp3", UriKind.Relative);
-            this.no.Volume = 100;
+            this.no.Volume = 1.0;
             this.no.Position = new TimeSpan(0, 0, 0, 0, 1);
             this.no.Play();
             //MediaElement 
@@ -67,7 +67,7 @@ namespace Noooooo
             {
                 MediaElement mediaPlayer = sender as MediaElement;
                 this.no.Source = new Uri("/Nooo.mp3", UriKind.Relative);
-                this.no.Volume = 100;
+                this.no.Volume = 1.0;
                 this.no.Position = new TimeSpan(0, 0, 0, 0, 1);
                 this.no.Play();
             }
